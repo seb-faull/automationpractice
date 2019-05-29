@@ -1,0 +1,23 @@
+{
+  "name": "automation-nightwatch",
+  "version": "1.0.0",
+  "description": "Test suite for automationpractise.com",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch",
+    "test": "nightwatch",
+    "test:cucumber": "cucumber-js --require cucumber.conf.js --require features/step-definitions --format node_modules/cucumber-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "nightwatch": "^1.1.11"
+  },
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "cucumber-pretty": "^1.5.0",
+    "nightwatch-api": "^2.3.0"
+  }
+}
