@@ -1,10 +1,3 @@
-const xPathSelector = (selector) => {
-    return {
-        selector: selector,
-        locateStrategy: 'xpath'
-    }
-};
-
 module.exports = {
     url: 'http://automationpractice.com/index.php?controller=contact',
     elements: {
