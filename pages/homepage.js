@@ -1,11 +1,11 @@
-// const xPathSelector = (selector) => {
-//     return {
-//         selector: selector,
-//         locateStrategy: 'xpath'
-//     }
-// };
+const xPathSelector = (selector) => {
+    return {
+        selector: selector,
+        locateStrategy: 'xpath'
+    }
+};
 
-import { xPathSelector } from '../utilities.mjs';
+// import { xPathSelector } from '../utilities.mjs';
 
 module.exports = {
     url: 'http://automationpractice.com/index.php',

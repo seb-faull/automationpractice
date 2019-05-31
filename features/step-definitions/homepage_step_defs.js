@@ -23,8 +23,8 @@ Then(/^I will go to the contact us page$/, () => {
     const contactUs = client.page.contact_us();
 
     return contactUs
-        .assert.urlContains('controller=contact', 'URL params: contains /controller=contact')
-        .waitForElementVisible('@breadrumbSelector', 'UI: Breadcrumbs Navigation is visible')
+        .assert.urlContains('controller=contact', 'URL params: contains controller=contact')
+        .waitForElementVisible('@breadcrumbSelector', 'UI: Breadcrumbs Navigation is visible')
         .waitForElementVisible('@contactUsHeading', 'UI: Contact Us heading is visible')
         .containsText('@contactUsBreadcrumb', 'Contact');
 });
