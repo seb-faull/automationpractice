@@ -1,3 +1,4 @@
+@contact
 Feature: Contact Automationpractice.com
 
 As a User I want to be able to send a message to Automationpractice.com
