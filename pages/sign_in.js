@@ -34,7 +34,9 @@ module.exports = {
         addressMobilePhoneInput:    '#phone_mobile',
         addressAliasInput:          '#alias',
         submitCreateAccount:        '#submitAccount',
-        infoAccount:                '.info-account'
+        // Login:
+        infoAccount:                '.info-account',
+        submitLogin:                '#SubmitLogin'
     },
     commands: [{
         containsText(selector, value) {
