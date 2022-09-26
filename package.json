@@ -13,7 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^74.0.0",
-    "nightwatch": "^1.1.11"
+    "nightwatch": "^1.7.13"
   },
   "dependencies": {
     "cucumber": "^5.1.0",
